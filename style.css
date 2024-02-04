@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color:bisque;
+    border: 2px;
+    display: flex;
+    
+}
+.page1 .side1{
+    background-image: url(image/bg1.png);
+    width: 50%;
+    height: 100vh;
+    
+    
+}
+
+
+.page1 .side2{
+    padding-top: 10px;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#a1{
+    color: brown;
+    font-size: 50px;
+}
+#button{
+    
+    border: 3px solid black;
+    padding: 15px 30px;
+
+    
+}
+
+.page2{
+
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(235, 188, 172);
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+
+#a3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 40px;
+
+}
+
+#a4{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+#btn{
+    border: 3px solid black;
+    padding: 15px 30px;
+}
+.page3{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+.page3 .section1{
+    width: 33.3%;
+    margin: 20px;
+} 
+
+
+/*.page3 .section1 p{
+    text-align: center;
+}
+.page3 .section1 p span{
+    color: brown;
+    
+    
+}*/
+.page3 .section1 img{
+   width: 100%;
+   height: 60%;
+   background-position: center;
+   
+}
+.page3 .section2{
+    width: 33.3%;
+    margin: 20px;
+    height: 100vh;
+}
+.page3 .section2 img{
+   width: 100%;
+   height: 60%;
+   
+}
+.page3 .section3{
+   width: 33.3%; 
+   margin: 20px;
+}
+
+.page3 .section3 img{
+    width: 100%;
+    height: 60%;
+}
+.page4{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+}
+
+.page4 .side1{
+    background-image: url(image/img2.png);
+    width: 50%;
+    height: 100%;
+}
+.page4 .side2{
+    padding-top: 10px;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page5{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    justify-content: space-around;
+    display: flex;
+    
+    
+}
+.section4{
+    
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 230px;
+    width: 33.3%;
+    margin-left: 25px;
+    
+}
+
+
+.section5{
+    
+    height: 100vh;
+    flex-direction: column;
+    padding-top: 100px;
+    width: 33.3%;
+    align-items: center;
+
+}
+#a6{
+    text-align: center;
+    font-size: 30px;
+
+}
+.section6{
+    
+    height: 100vh;
+    flex-direction: column;
+    padding-top: 230px;
+    width: 33.3%;
+}  
+
+.page6{
+    border: 3px solid blue;
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+
+}
+.section7{
+    height: 90%;
+    width: 33.3%;
+    text-align: center;
+    margin-left: 40px;
+    padding-top:85px ;
+
+
+}
+.section8{
+    height: 90%;
+    width: 40%;
+    padding-top: 150px;
+}
+.section9{
+    width: 33.3%;
+}
+#a7{
+   margin-left: 50px; 
+}
+@media screen and (max-width: 800px){
+#a1{
+    font-size: 20px;
+}
+.page3{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200vh; 
+}
+.page1{
+    flex-wrap: wrap;
+    height: 200vh;
+}
+.page1 .side1{
+    width: 100%;
+    height: 100vh;
+}
+
+.page1 .side2{
+    width: 100%;
+    height: 100vh;
+}
+.page2
+
+}
